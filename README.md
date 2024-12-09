@@ -15,8 +15,9 @@ Dataset Description: An integrated Ether-a-go-go-related gene (hERG) dataset con
 
 Task Description: Binary classification. Given a drug SMILES string, predict whether it blocks (1, <10uM) or not blocks (0, >=10uM).
 How to download your repository? Download the dataset from https://github.com/SomayehMotevalli/SM-cdd203finalproj.git
+Starting the Project
+Steps:
+1. Fork this Repo and clone the fork
+2. Create a conda environment from the requirements.txt file 
 
 
-you will be given a set of simulated medical record data (reference) from patients with small cell or non-small cell lung cancer. Write a logistic regression to predict whether a person belongs in one class or another.
-The dataset contains 13,445 data points with numerical molecular descriptors and labels (hERG vs. non-hERG blockers). The dataset is not provided in this repository due to licensing and confidentiality restrictions.
-Starting the project
