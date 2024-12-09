@@ -8,7 +8,9 @@ Project: Pridicting hERG and non-hERG blockers
 Project Goal:
 The goal of this project is distinguishing between hERG and non-hERG blockers using machine learning models. The project involves feature extraction from SMILES strings, hyperparameter tuning, and performance evaluation of XGBoost and CatBoost classifiers.
 Dataset:
-where is the dataset?  The dataset is from the pytdc package.
+
+where is the dataset?  The dataset is from the pytdc package. 
+data = Tox(name = 'hERG_Karim')
 Reference: Karim, A., et al. CardioTox net: a robust predictor for hERG channel blockade based on deep learning meta-feature ensembles. J Cheminform 13, 60 (2021).
 
 Dataset Description: An integrated Ether-a-go-go-related gene (hERG) dataset consisting of molecular structures labelled as hERG (<10uM) and non-hERG (>=10uM) blockers in the form of SMILES strings was obtained from the DeepHIT, the BindingDB database, ChEMBL bioactivity database, and other literature. For this project, the dataset contains 13,445 data points with numerical molecular descriptors and labels (hERG vs. non-hERG blockers). 
