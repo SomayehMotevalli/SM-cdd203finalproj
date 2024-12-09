@@ -8,5 +8,15 @@ Project: Pridicting hERG and non-hERG blockers
 Project Goal:
 The goal of this project is distinguishing between hERG and non-hERG blockers using machine learning models. The project involves feature extraction from SMILES strings, hyperparameter tuning, and performance evaluation of XGBoost and CatBoost classifiers.
 Dataset:
-For this project, you will be given a set of simulated medical record data (reference) from patients with small cell or non-small cell lung cancer. Write a logistic regression to predict whether a person belongs in one class or another.
+where is the dataset?  The dataset is from the pytdc package.
+Reference: Karim, A., et al. CardioTox net: a robust predictor for hERG channel blockade based on deep learning meta-feature ensembles. J Cheminform 13, 60 (2021).
+
+Dataset Description: An integrated Ether-a-go-go-related gene (hERG) dataset consisting of molecular structures labelled as hERG (<10uM) and non-hERG (>=10uM) blockers in the form of SMILES strings was obtained from the DeepHIT, the BindingDB database, ChEMBL bioactivity database, and other literature. For this project, the dataset contains 13,445 data points with numerical molecular descriptors and labels (hERG vs. non-hERG blockers). 
+
+Task Description: Binary classification. Given a drug SMILES string, predict whether it blocks (1, <10uM) or not blocks (0, >=10uM).
+How to download your repository? Download the dataset from https://github.com/SomayehMotevalli/SM-cdd203finalproj.git
+
+
+you will be given a set of simulated medical record data (reference) from patients with small cell or non-small cell lung cancer. Write a logistic regression to predict whether a person belongs in one class or another.
 The dataset contains 13,445 data points with numerical molecular descriptors and labels (hERG vs. non-hERG blockers). The dataset is not provided in this repository due to licensing and confidentiality restrictions.
+Starting the project
