@@ -6,7 +6,10 @@ Where is the data
 •	Ensure you have code for us to run to reproduce your results 
 ![image](https://github.com/user-attachments/assets/788cef5b-ab0d-4004-8742-bc6c1974d7e3)
 
-Project: Pridicting hERG and non-hERG blockers 
+Project: Machine Learning Approaches for Early Prediction of hERG Channel Blockade: A Comparative Study of CatBoost and XGBoost Models
+
+![Uploading image.png…]()
+
 
 Project Goal:
 The goal of this project is distinguishing between hERG and non-hERG blockers using machine learning models. The project involves feature extraction from SMILES strings, hyperparameter tuning, and performance evaluation of XGBoost and CatBoost classifiers.
@@ -37,6 +40,26 @@ Starting the Project
 Steps:
 1. Fork this Repo and clone the fork
 2. Create a conda environment from the requirements.txt file
-3. 
+ - Activate the Conda Environment
+ - Make sure you correctly select the interpreter path for VSCode
+   3. Read the rest Assignment Context below
+    
+4. Complete TODOs in logreg.py 
+    - calculate_gradient
+    - loss_function
+    - make_prediction
+
+5. Install Pytest & Make Local package
+    - Use flit: Same process as Assignment 1
+    - Note: Required for unit testing
+
+6. Unit Testing
+    - Check if fit appropriately trains model & weights get updated
+    - Check loss approaches 0 
+    - Check predict works as intended
+
+7. Push to GitHub
+    - If you need a refresher, please consult this Git cheatsheet 
+    
 
 
