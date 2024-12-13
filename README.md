@@ -43,11 +43,8 @@ Steps:
  - Activate the Conda Environment
  - Make sure you correctly select the interpreter path for VSCode
    3. Read the rest Assignment Context below
-    
-4. Complete TODOs in logreg.py 
-    - calculate_gradient
-    - loss_function
-    - make_prediction
+    pip install pytdc xgboost rdkit scikit-learn pandas numpy
+   
 
 5. Install Pytest & Make Local package
     - Use flit: Same process as Assignment 1
