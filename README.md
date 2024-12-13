@@ -1,6 +1,6 @@
 •	A README detailing data sources, virtual environment setup, and package installation for result reproduction. 
 Where is the data 
-•	How to download your repo 
+•	How to download your repo?
 •	Explain how we can set up your virtual environment, and install 
 •	packages similar to the readme content provided for assignments 
 •	Ensure you have code for us to run to reproduce your results 
