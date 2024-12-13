@@ -4,4 +4,4 @@ rdkit-pypi==2022.9.1
 scikit-learn==1.1.2
 xgboost==1.6.2
 catboost==1.0.6
-pytdc==1.1.1
+pytdc==1.0.0
