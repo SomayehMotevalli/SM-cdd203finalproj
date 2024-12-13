@@ -1,18 +1,17 @@
 •	A README detailing data sources, virtual environment setup, and package installation for result reproduction. 
 Where is the data 
-•	●  How to download your repo 
-•	●  Explain how we can set up your virtual environment, and install 
+•	How to download your repo 
+•	Explain how we can set up your virtual environment, and install 
 •	packages similar to the readme content provided for assignments 
 •	Ensure you have code for us to run to reproduce your results 
 ![image](https://github.com/user-attachments/assets/788cef5b-ab0d-4004-8742-bc6c1974d7e3)
 
 Project: Machine Learning Approaches for Early Prediction of hERG Channel Blockade: A Comparative Study of CatBoost and XGBoost Models
 
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/33a01537-ebb7-4e33-9906-657d2cffc906)
 
 Project Goal:
-The goal of this project is distinguishing between hERG and non-hERG blockers using machine learning models. The project involves feature extraction from SMILES strings, hyperparameter tuning, and performance evaluation of XGBoost and CatBoost classifiers.
+The goal of this project is distinguishing between hERG and non-hERG blockers using machine learning models. The project involves feature extraction from SMILES strings, hyperparameter tuning, and performance evaluation of XGBoost and CatBoost classifiers. Also, alternative models like SVM, and Random Forest were tested by the group. 
 
 Dataset:
 
@@ -27,13 +26,13 @@ Task Description: Binary classification. Given a drug SMILES string, predict whe
 How to download your repository? Download the dataset from https://github.com/SomayehMotevalli/SM-cdd203finalproj.git
 
 Explain how we can set up your virtual environment, and install
-packages similar to the readme content provided for assignments
+packages 
 
 Requirements
 Python version: 3.8 or higher
 Operating System: Compatible with Windows, macOS, and Linux
 Recommended: Conda or virtual environment for package management
-
+Model implementation: Jupyter notebooks, Python
 
 Starting the Project
 
@@ -42,21 +41,7 @@ Steps:
 2. Create a conda environment from the requirements.txt file
  - Activate the Conda Environment
  - Make sure you correctly select the interpreter path for VSCode
-   3. Read the rest Assignment Context below
-    pip install pytdc xgboost rdkit scikit-learn pandas numpy
+3. pip install pytdc xgboost rdkit scikit-learn pandas numpy 
+4. Push to GitHub
    
-
-5. Install Pytest & Make Local package
-    - Use flit: Same process as Assignment 1
-    - Note: Required for unit testing
-
-6. Unit Testing
-    - Check if fit appropriately trains model & weights get updated
-    - Check loss approaches 0 
-    - Check predict works as intended
-
-7. Push to GitHub
-    - If you need a refresher, please consult this Git cheatsheet 
-    
-
 
