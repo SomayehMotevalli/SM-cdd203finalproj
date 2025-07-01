@@ -6,7 +6,7 @@ Where is the data
 •	Ensure you have code for us to run to reproduce your results 
 ![image](https://github.com/user-attachments/assets/788cef5b-ab0d-4004-8742-bc6c1974d7e3)
 
-Project: Machine Learning Approaches for Early Prediction of hERG Channel Blockade: A Comparative Study of CatBoost and XGBoost Models
+# Project: Machine Learning Approaches for Early Prediction of hERG Channel Blockade: A Comparative Study of CatBoost and XGBoost Models
 
 ![image](https://github.com/user-attachments/assets/33a01537-ebb7-4e33-9906-657d2cffc906)
 
