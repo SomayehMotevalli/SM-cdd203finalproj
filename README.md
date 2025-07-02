@@ -22,7 +22,7 @@ Binary classification task: Given a drug's SMILES string, predict whether the co
 
 'git clone https://github.com/SomayehMotevalli/SM-cdd203finalproj.git'
 
-## Set up your virtual environment, and install packages 
+## Set up your virtual environment, and install packages: 
 
 Requirements:
 
@@ -34,7 +34,7 @@ Recommended: Conda or virtual environment for package management
 
 Model implementation: Jupyter notebooks, Python
 
-## Starting the Project
+## Starting the Project:
 
 Steps:
 
